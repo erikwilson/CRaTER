@@ -1,0 +1,185 @@
+#
+# CRaTER Level 0 housekeeping channel conversions
+#
+Serials	6
+#
+# Instrument serial number
+#
+SerialNumber	N/A	1		2		8		9		10		31	
+#
+# Spacecraft voltage calibration
+#
+SCV28bus0	V	0		0.02059008	0		0		0		0
+SCV28bus1	V	0		42.1303065	0		0		0		0
+#
+# Spacecraft amperage calibration
+#
+SCI28bus0	A	0		0.0050022	0		0		0		0
+SCI28bus1	A	0		10.23126758	0		0		0		0
+#
+# Instrument 28VDC bus voltage
+#
+V28bus		V	0.009752	n/a		0.0101		0.009812	0.009812	0.0101	
+#
+# Instrument current drain off spacecraft bus
+#
+I28bus		A	0.000205	n/a		0.000198	0.000200	0.000200	0.000198
+#
+# +5VDC digital regulated voltage
+#
+V5digital	V	0.001986	0.001997	0.002		0.002		0.002		0.002	
+#
+# +5VDC analog regulated voltage
+#
+V5plus		V	0.002000	0.002004	0.002		0.002		0.002		0.002	
+#
+# -5VDC analog regulated voltage
+#
+V5neg		V	-0.001996	-0.002009	-0.00201	-0.00201	-0.00201	-0.00201
+#
+# Detector 1-6 bias currents
+#
+BiasCurrent0  	nA	5e-1		5e-1		5e-1		5e-1		5e-1		5e-1	
+BiasCurrent1  	nA	5.0		5.0		5.0		5.0		5.0		5.0
+BiasCurrent2  	nA	5e-1		5e-1		5e-1		5e-1		5e-1		5e-1
+BiasCurrent3  	nA	5.0		5.0		5.0		5.0		5.0		5.0
+BiasCurrent4  	nA	5e-1		5e-1		5e-1		5e-1		5e-1		5e-1
+BiasCurrent5  	nA	5.0		5.0		5.0		5.0		5.0		5.0
+#
+# Thin detector (D1, D3, D5) bias voltage
+#
+BiasVoltThin	V	0.1		0.1001		0.1070		0.1011		0.1011		0.1	
+#
+# Thick detector (D2, D4, D6) bias voltage
+#
+BiasVoltThick	V	0.1		0.09972		0.1108		0.1003		0.1003		0.1	
+#
+# Electrical calibration voltage ampllitude
+#
+CalAmp		V	0.000995	0.000995	0.001		0.001		0.001		0.001	
+#
+# Low Level Discriminator voltage for thin detectors
+#
+LLDThin0  	V	0.000124	0.0001232	0.001		0.000124	0.000124	0.000124
+LLDThin1  	V	0.124		0.123		0		0.124		0.124		0.124
+#
+# Low Level Discriminator voltage for thick detectors
+#
+LLDThick0  	V	0.000124	0.0001234	0.001		0.000124	0.000124	0.000124
+LLDThick1  	V	0.124		0.1239		0		0.124		0.124		0.124
+#
+# Temperature of telescope assembly
+#
+Ttelescope0  	C	0.1		0.1		0.1		0.1		0.1		0.1	
+Ttelescope1  	C	273		273		273		280.4		280.4		273
+#
+# Temperature of analog electronics
+#
+Tanalog0  	C	0.1		0.1		0.1		0.1		0.1		0.1	
+Tanalog1  	C	273		273		273		272.8		272.8		273
+#
+# Temperature of digital electronics
+#
+Tdigital0  	C	0.1		0.1		0.1		0.1		0.1		0.1	
+Tdigital1  	C	273		273		273		276.3		276.3		273
+#
+# Temperature of regulate power supply
+#
+Tpower0  	C	0.1		0.1		0.1		0.1		0.1		0.1	
+Tpower1  	C	273		273		273		273.7		273.7		273
+#
+# Temperature of reference location on telescope wall	
+#
+Tref0  		C	0.1		0.1		0.1		0.1		0.1		0.1	
+Tref1  		C	273		273		273		274.6		274.6		273
+#
+# High Sensitivity Radiation monitor voltage
+#
+RadHighSens0  	Rad	0.00002		0.00002		0.00002		0.00002		0.00002		0.00002	
+RadHighSens1  	Rad	0		23		0		0		18		0
+#
+# Medium Sensitivity Radiation monitor voltage	
+#
+RadMedSens0  	Rad	0.00512		0.00512		0.00512		0.00512		0.00512		0.00512	
+RadMedSens1  	Rad	0		30		0		0		21		0
+#
+# Low Sensitivity Radiation monitor voltage
+#
+RadLowSens0  	Rad	1.31		1.31		1.31		1.31		1.31		1.31	
+RadLowSens1  	Rad	0		27		0		0		21		0
+#
+# Temperature of reference location on chassis
+#
+Tprt0  		C	0.1299		n/a		0		0		0		0.1299	
+Tprt1  		C	0.001		n/a		0.001		0.001		0.001		0.001
+#
+# Flow rate of GN2 purge
+#
+Purge0  	CuFt/Hr	1		n/a		0		1		1		1	
+Purge1  	CuFt/Hr	370.76		n/a		370.76		500		370.76		370.76
+Purge2  	CuFt/Hr	19		n/a		19		19		19		19
+Purge3  	CuFt/Hr	0		n/a		0		0		63		0
+#
+# CRaTER detector calibration (ADU to keV)
+#
+# Detector 1-6 energy offset
+#
+DetCorOffset0  	keV	126.970		105.1		126.970		126.970		126.970		126.970	
+DetCorOffset1  	keV	75.960		50.0		75.960		75.960		75.960		75.960	
+DetCorOffset2  	keV	126.970		152.8		126.970		126.970		126.970		126.970	
+DetCorOffset3  	keV	75.960		74.7		75.960		75.960		75.960		75.960	
+DetCorOffset4  	keV	126.970		119.1		126.970		126.970		126.970		126.970	
+DetCorOffset5  	keV	75.960		46.6		75.960		75.960		75.960		75.960	
+#
+# Detector 1-6 ADU to energy slope
+#
+DetCorSlope0  	keV/ADU	75.630		76.3		75.630		75.630		75.630		75.630	
+DetCorSlope1  	keV/ADU	21.810		21.8		21.810		21.810		21.810		21.810	
+DetCorSlope2  	keV/ADU	75.630		78.6		75.630		75.630		75.630		75.630	
+DetCorSlope3  	keV/ADU	21.810		21.6		21.810		21.810		21.810		21.810	
+DetCorSlope4  	keV/ADU	75.630		76.3		75.630		75.630		75.630		75.630	
+DetCorSlope5  	keV/ADU	21.810		21.9		21.810		21.810		21.810		21.810	
+#
+# Nominal temperature
+#
+DetCorTZero	C	33.0		22.0		33.0		33.0		33.0		33.0	
+#
+# Detector 1-6 ADU to energy per degC
+#
+DetCorTGain0  	keV/A/C	15e-3		1.931e-4    	15e-3		15e-3		15e-3		15e-3	
+DetCorTGain1  	keV/A/C	0.54e-3		2.46e-5     	0.54e-3		0.54e-3		0.54e-3		0.54e-3	
+DetCorTGain2  	keV/A/C	15e-3		1.351e-4    	15e-3		15e-3		15e-3		15e-3	
+DetCorTGain3  	keV/A/C	0.54e-3		0.23e-5     	0.54e-3		0.54e-3		0.54e-3		0.54e-3	
+DetCorTGain4  	keV/A/C	15e-3		1.698e-4    	15e-3		15e-3		15e-3		15e-3	
+DetCorTGain5  	keV/A/C	0.54e-3		4.08e-5     	0.54e-3		0.54e-3		0.54e-3		0.54e-3	
+#
+# Detector 1-6 thicknesses
+#
+DetThickness0  	microns	140		148 		140		140		140		140	
+DetThickness1  	microns	1000		1000		1000		1000		1000		1000	
+DetThickness2  	microns	140		149 		140		140		140		140	
+DetThickness3  	microns	1000		1000		1000		1000		1000		1000	
+DetThickness4  	microns	140		149 		140		140		140		140	
+DetThickness5  	microns	1000		1000		1000		1000		1000		1000	
+#
+# CRaTER discriminator calibration (Volts to keV)
+#
+# LLD offset for Detector 1-6
+#
+LLDoffset0  	keV	42.080		42.080		42.080		42.080		42.080		42.080	
+LLDoffset1  	keV	41.640		41.640		41.640		41.640		41.640		41.640	
+LLDoffset2  	keV	42.080		42.080		42.080		42.080		42.080		42.080	
+LLDoffset3  	keV	41.640		41.640		41.640		41.640		41.640		41.640	
+LLDoffset4  	keV	42.080		42.080		42.080		42.080		42.080		42.080	
+LLDoffset5  	keV	41.640		41.640		41.640		41.640		41.640		41.640	
+#
+# LLD slope for Detector 1-6
+#
+LLDslope0  	keV/V	11308.0		11308.0		11308.0		11308.0		11308.0		11308.0
+LLDslope1  	keV/V	30875.0		30875.0		30875.0		30875.0		30875.0		30875.0
+LLDslope2  	keV/V	11308.0		11308.0		11308.0		11308.0		11308.0		11308.0
+LLDslope3  	keV/V	30875.0		30875.0		30875.0		30875.0		30875.0		30875.0
+LLDslope4  	keV/V	11308.0		11308.0		11308.0		11308.0		11308.0		11308.0
+LLDslope5  	keV/V	30875.0		30875.0		30875.0		30875.0		30875.0		30875.0
+#
+# end

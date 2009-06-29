@@ -1,0 +1,71 @@
+120 | H078TESTMODE      |1| 11|1| 1|  | | | | |
+120 | H0781HZRCVD       |1| 11|2| 1|  | | | | |
+120 | H078SERNUM        |1| 11|3| 5|  | | | | |
+120 | CREVTAMPDET1      |2| 12|0|12|  | | | | |
+120 | CREVTAMPDET2      |2| 13|4|12|  | | | | |
+120 | CREVTAMPDET3      |2| 15|0|12|  | | | | |
+120 | CREVTAMPDET4      |2| 16|4|12|  | | | | |
+120 | CREVTAMPDET5      |2| 18|0|12|  | | | | |
+120 | CREVTAMPDET6      |2| 19|4|12|  | | | | |
+121 | H079TESTMODE      |1| 11|1| 1|  | | | | |
+121 | H0791HZRCVD       |1| 11|2| 1|  | | | | |
+121 | H079SERNUM        |1| 11|3| 5|  | | | | |
+121 | CRDETBSDELAYCTRL  |2| 12|0| 1| 1| | | |1|
+121 | CRDETBIAS         |2| 12|1| 1| 1| | | |1|
+121 | CRELECCALLOW      |2| 12|2| 1| 1| | | |1|
+121 | CRELECCALHIGH     |2| 12|3| 1| 1| | | |1|
+121 | CRELECCALRATE     |2| 12|4| 1| 1| | | |1|
+121 | CRDETPROC1        |2| 12|5| 1| 1| | | |1|
+121 | CRDETPROC2        |2| 12|6| 1| 1| | | |1|
+121 | CRDETPROC3        |2| 12|7| 1| 1| | | |1|
+121 | CRDETPROC4        |2| 13|0| 1| 1| | | |1|
+121 | CRDETPROC5        |2| 13|1| 1| 1| | | |1|
+121 | CRDETPROC6        |2| 13|2| 1| 1| | | |1|
+121 | CRRTSBADLSTCMD    |2| 13|3| 5| 5| | | |1|
+121 | CRLSTCMDCONTENTS  |2| 14|0|16| 5| | | |1|
+121 | CREVTAMPDISSET135 |2| 16|0|16| 5| | | |1|
+121 | CREVTAMPDISSET246 |2| 18|0|16| 5| | | |1|
+121 | CRDISCACCMASK1    |4| 20|0|32|10| | | |1|
+121 | CRDISCACCMASK2    |4| 24|0|32|10| | | |1|
+121 | CRDETD1SINGCNTR   |2| 28|0|16| 5| | | |1|
+121 | CRDETD2SINGCNTR   |2| 30|0|16| 5| | | |1|
+121 | CRDETD3SINGCNTR   |2| 32|0|16| 5| | | |1|
+121 | CRDETD4SINGCNTR   |2| 34|0|16| 5| | | |1|
+121 | CRDETD5SINGCNTR   |2| 36|0|16| 5| | | |1|
+121 | CRDETD6SINGCNTR   |2| 38|0|16| 5| | | |1|
+121 | CREVTGOODCNTR     |2| 40|0|16| 5| | | |1|
+121 | CRTLMREJCNTR      |2| 42|0|16| 5| | | |1|
+121 | CREVTTOTCNTR      |2| 44|0|16| 5| | | |1|
+122 | H07ATESTMODE      |1| 11|1| 1|  | | | | |
+122 | H07A1HZRCVD       |1| 11|2| 1|  | | | | |
+122 | H07ASERNUM        |1| 11|3| 5|  | | | | |
+122 | SCV28bus          |2|  0|0| 0| 7|3| |2|2| SCV28bus
+122 | CRP5VDCDMON       |2| 14|0|16| 7| | |1|1| V5digital
+122 | VAnalogErr        |1| 16|0| 4| 2|0| | |1|
+122 | CRP5VDCAMON       |2| 16|4|12| 7|3| |1|1| V5plus
+122 | CRM5VDCMON        |2| 18|0|16| 7| | |1|1| V5neg
+122 | SCI28bus          |2|  0|0| 0| 7| | |2|2| SCI28bus
+122 | SCP28bus          |2|  0|0| 0| 7| | |0|2| SCP28bus
+122 | CRDETD1BSIMON     |2| 22|0|16| 7| | |1|1| BiasCurrent0
+122 | CRDETD2BSIMON     |2| 24|0|16| 7| | |1|1| BiasCurrent1
+122 | CRDETD3BSIMON     |2| 26|0|16| 7| | |1|1| BiasCurrent2
+122 | CRDETD4BSIMON     |2| 28|0|16| 7| | |1|1| BiasCurrent3
+122 | CRDETD5BSIMON     |2| 30|0|16| 7| | |1|1| BiasCurrent4
+122 | CRDETD6BSIMON     |2| 32|0|16| 7| | |1|1| BiasCurrent5
+122 | CRTHNDETBSVMON    |2| 34|0|16| 7| | |1|1| BiasVoltThin
+122 | CRTHKDETBSVMON    |2| 36|0|16| 7| | |1|1| BiasVoltThick
+122 | CRELECCALAMPMON   |2| 38|0|16| 7| | |1|1| CalAmp
+122 | CRTHNDETLLDVMON   |2| 40|0|16| 7| | |2|1| LLDThin
+122 | CRTHKDETLLDVMON   |2| 42|0|16| 7| | |2|1| LLDThick
+122 | CRTELETEMP        |2| 44|0|16| 7|2| |3|1| Ttelescope
+122 | CRANLGBRDTEMP     |2| 46|0|16| 7| | |3|1| Tanalog
+122 | CRDIGIBRDTEMP     |2| 48|0|16| 7| | |3|1| Tdigital
+122 | CRPWRSUPTEMP      |2| 50|0|16| 7| | |3|1| Tpower
+122 | CRBULKREFTEMP     |2| 52|0|16| 7| | |3|1| Tref
+122 | CRRADMONHISENS    |2| 54|0|16|10|4|S|4|1| RadHighSens
+122 | CRRADMONMDSENS    |2| 56|0|16|10| | |4|1| RadMedSens
+122 | CRRADMONLOSENS    |2| 58|0|16|10| | |4|1| RadLowSens
+122 | CRPRTREF          |2| 60|0|16|  | | | | |
+122 | CRPRGFLWRTE       |2| 62|0|16|  | | | | | 
+100 | PWCRI             |2| 62|0|16|  | | | | |
+100 | PWBUSV            |2|184|0|16|  | | | | |
