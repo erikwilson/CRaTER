@@ -93,7 +93,9 @@ void gzip(string file, fstream *os) {
     // forking a gzip process to compress the output
     char buf[file.size()+32];
     sprintf(buf, "(gzip<%s>%s.gz&)", fifo, file.c_str());
-    system(buf);
+    if (system(buf) == -1) {
+      cerr << "system call to gzip failed?" << endl;
+    }
     // write to the fifo
     os->open(fifo, ofstream::out);
     // safe to unlink it since gzip has already opened it

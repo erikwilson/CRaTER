@@ -37,14 +37,16 @@
 #include <deque>
 #include <set>
 #include <map>
+#include <algorithm>
 
 using namespace std;
 
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-#include <assert.h>
+#include <cstdio>
+#include <cstdlib>
+#include <cstring>
+#include <cassert>
 
+#include <unistd.h>
 #include <libgen.h>
 #include <sys/stat.h>
 #include <dirent.h>

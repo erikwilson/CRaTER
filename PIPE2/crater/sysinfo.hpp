@@ -34,7 +34,7 @@
 /*
   Returns some information about system resource usage.
 */
-string sysInfo(char *str) {
+string sysInfo(const char *str) {
   
   static struct {
     struct	timeval	tv;	// time-of-day

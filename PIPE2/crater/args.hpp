@@ -118,7 +118,7 @@ pipeConfig checkArgs(int argc, char * const argv[]) {
     case 'P': config.phases.push_back(optarg);
       continue;
     case 'r': // total radiation dosage
-      if (sscanf(optarg, "%f%c", &config.radPrior, &ch) != 1) {
+      if (sscanf(optarg, "%lf%c", &config.radPrior, &ch) != 1) {
 	cerr << config.proc << ": bad prior rad total: " << optarg << endl;
 	exit(1);
       }
@@ -206,13 +206,13 @@ pipeConfig checkArgs(int argc, char * const argv[]) {
     int s = getSecs(config.yyyyddd);
     char buf[16];
 
-    sprintf(buf,"%d",getYD(s-24*60*60));
+    sprintf(buf,"%ld",getYD(s-24*60*60));
     config.files.push_back(dataDir+"/"+buf);
 
     sprintf(buf,"%d",config.yyyyddd);
     config.files.push_back(dataDir+"/"+buf);
 
-    sprintf(buf,"%d",getYD(s+24*60*60));
+    sprintf(buf,"%ld",getYD(s+24*60*60));
     config.files.push_back(dataDir+"/"+buf);
   }
 

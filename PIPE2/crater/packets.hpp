@@ -167,7 +167,7 @@ bool bracketFilter(char c){ return c=='[' or ']'==c; }
 /*
   Required calibration data.
 */
-static char* hk_required[] = { 
+static const char* hk_required[] = { 
   "SCV28bus0", "SCV28bus1", "SCI28bus0", "SCI28bus1", "V5digital", "V5plus", "V5neg", 
   "BiasCurrent0", "BiasCurrent1", "BiasCurrent2", "BiasCurrent3", "BiasCurrent4", "BiasCurrent5", 
   "BiasVoltThin", "BiasVoltThick", "CalAmp", "LLDThin0", "LLDThin1", "LLDThick0", "LLDThick1", 
@@ -223,7 +223,7 @@ istream& operator>> (istream& is, coefficients &c) {
   }
   if (!colSerial) throwError("Serial " << c.serial << " not found in hk_table");
   string missing = "";
-  for ( char **r = hk_required; *r; r++ )
+  for ( const char **r = hk_required; *r; r++ )
     if (!found[*r]) missing += " " + string(*r);  
   if (missing != "") 
     { throwError("Missing from hk_table:" << missing); }

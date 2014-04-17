@@ -316,7 +316,7 @@ public:
   
     static const int bufSize=1024;
     static byte buf[bufSize];
-    static char* types[] = { "PRI", "SEC", "HK" };
+    static const char* types[] = { "PRI", "SEC", "HK" };
 
     bool foundHK=false, foundSC=false, filesOpen=false;
     int skip=0, readSize=0;
